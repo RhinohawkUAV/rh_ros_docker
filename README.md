@@ -21,10 +21,10 @@ To look at what containers are running.
 >> docker ps
 
 To stop a running container gracefully you will need the container ID. The previous command will get you that info.
->> docker stop <container-id>
+>> docker stop [container-id]
   
 To kill a running container
->> docker kill <container-id>
+>> docker kill container-id]
 
 ### Docker Images
 There are several directories with differnet packages installed in each.
@@ -35,13 +35,16 @@ Base image for all ros-based containers. This container is configured with the f
 * ROS Medlodic-base
 
 #### ros-navigation
-<TBD>
+* ros-base
+TBD
   
 #### ros-camera
-<TBD>
+* ros-base
+TBD
   
 #### ros-all
-<TBD>
+* ros-base
+TBD
 
 
 
