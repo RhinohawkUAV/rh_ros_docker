@@ -24,7 +24,7 @@ To stop a running container gracefully you will need the container ID. The previ
 >> docker stop [container-id]
   
 To kill a running container
->> docker kill container-id]
+>> docker kill [container-id]
 
 ### Docker Images
 There are several directories with differnet packages installed in each.
@@ -36,15 +36,15 @@ Base image for all ros-based containers. This container is configured with the f
 
 #### ros-navigation
 * ros-base
-TBD
+* TBD
   
 #### ros-camera
 * ros-base
-TBD
+* TBD
   
 #### ros-all
 * ros-base
-TBD
+* TBD
 
 
 
